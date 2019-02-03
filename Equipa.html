@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Equipa</title>
+<style>
+#navigation {
+list-style: none;
+font-family: "Comic Sans MS";
+margin: 0;
+padding: 0;
+font-size: 1.2em;
+}
+#navigation li
+{
+clear: both;
+height: 2em;
+}
+#navigation li a
+{
+float: left;
+display: block;
+padding: 4px;
+text-decoration: bold;
+color: #000000;
+text-transform: uppercase;
+margin-bottom: 5px;
+margin-right: 10px;
+}
+#navigation li:hover a,
+#navigation li a:hover
+{
+background: #000000;
+color: #fff;
+}
+ #navigation ul {display: none;}
+ #navigation li:hover ul {display: block;}
+#navigation ul
+{
+list-style: none;
+float: left;
+margin: 0;
+padding: 4px 8px;
+}
+#navigation ul li
+{
+float: left;
+clear: none;
+margin: 0;
+padding: 0;
+width: auto;
+height: auto;
+color: #000000;
+}
+#navigation li:hover ul li a,
+#navigation ul li a
+{
+display: inline;
+padding: 0 6px 0 0;
+float: none;
+text-transform: uppercase;
+color: #000000;
+background: none;
+}
+#navigation li:hover ul li a:hover,
+#navigation ul li a:hover
+{
+background: none;
+color: #000000;
+} </style>
+<style>
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+.fa:hover {
+opacity: 0.7;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+table, th, td {
+border-collapse: 10px solid black;
+}
+h1{
+font-size: 30px;
+color: black;
+text-transform: uppercase;
+font-weight: 300;
+text-align: center;
+margin-bottom: 15px;
+}
+table{
+width:100%;
+table-layout: fixed;
+}
+.tbl-header{
+background-color: rgba(0, 0, 0, 0.973);
+}
+.tbl-content{
+height:300px;
+overflow-x:auto;
+margin-top: 0px;
+border: 1px solid rgba(0, 0, 0, 0.973);
+}
+th{
+padding: 20px 15px;
+text-align: left;
+font-weight: 500;
+font-size: 12px;
+color: #fff;
+text-transform: uppercase;
+}
+td{
+padding: 15px;
+text-align: left;
+vertical-align:middle;
+font-weight: 300;
+font-size: 12px;
+color: black;
+border-bottom: solid 1px rgba(0, 0, 0, 0.973);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+font-family: 'Roboto', sans-serif;
+}
+section{
+margin: 50px;
+}
+
+::-webkit-scrollbar {
+width: 6px;
+} 
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+</style>
+</head>
+<body>
+<body background="blur v2 gamba.png"> 
+</body>
+<header>
+<header>
+<div id="header_section">
+<div id="emblema"> 
+<a href="Mainpage.html">
+<img src="gamba osaka emblem galeria.png">
+</a> 
+</div>
+</header>
+<script>
+$(window).on("load resize ", function() {
+  var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+  $('.tbl-header').css({'padding-right':scrollWidth});
+}).resize();
+</script>
+<section>
+<h1>Plantel</h1>
+<div class="tbl-header">
+<table cellpadding="0" cellspacing="0" border="0">
+<thead>
+<tr>
+<th>Nome</th>
+<th>Número</th>
+<th>Posição</th>
+<th>Nacionalidade</th>
+</tr>
+</thead>
+</table>
+</div>
+<div class="tbl-content">
+<table cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td>M.Higashiguchi</td>
+<td>1</td>
+<td>Guarda-Redes</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>M. Hayashi</td>
+<td>31</td>
+<td>Guarda-Redes</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>K. Tani</td>
+<td>41</td>
+<td>Guarda-Refes</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>H. Noda</td>
+<td>32</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>H. Fujiharu</td>
+<td>4 </td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>G. Miura</td>
+<td>5</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>R. Takao</td>
+<td>27</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>S. Suganuma</td>
+<td>13</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>K. Yonekura</td>
+<td>14 </td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>Y. Konno </td>
+<td>15</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>O. Jae-Suk</td>
+<td>2</td>
+<td>Defesa</td>
+<td><img src="flag_of_korea.png"></td>
+</tr>
+<tr>
+<td>N. Aoyama </td>
+<td>30</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>T. Yamaguchi</td>
+<td>35 </td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>R. Matsuda</td>
+<td>36</td>
+<td>Defesa</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>T. Tanaka</td>
+<td>6</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>Y. Endō</td>
+<td>7</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>K. Onose</td>
+<td>8 </td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>S. Kurata</td>
+<td>10</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>M. Ichimaru</td>
+<td>17</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>S. Yajima</td>
+<td>21</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>J. Fujimoto</td>
+<td>25 </td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>K. Okuno</td>
+<td>26</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>T. Ko </td>
+<td>28</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>L. Takae</td>
+<td>29</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>R. Shibamoto </td>
+<td>32 </td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>Y. Fukuda</td>
+<td>34</td>
+<td>Médio</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>Ademilson</td>
+<td>9</td>
+<td>Atacante</td>
+<td><img src="flag_of_brazil.png"></td>
+</tr>
+<tr>
+<td>H. Ui-jo </td>
+<td>16</td>
+<td>Atacante</td>
+<td><img src="flag_of_korea.png"></td>
+</tr>
+<tr>
+<td>A. Takagi</td>
+<td>18</td>
+<td>Atacante</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>H. Goya</td>
+<td>20</td>
+<td>Atacante</td>
+<td><img src="flag_of_japan.png"></td>
+<tr>
+<td>H. Shirai</td>
+<td>37</td>
+<td>Atacante</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>K. Nakamura </td>
+<td>38</td>
+<td>Atacante</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>K. Watanabe </td>
+<td>39</td>
+<td>Atacante</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+<tr>
+<td>R. Meshino </td>
+<td>40</td>
+<td>Atacante</td>
+<td><img src="flag_of_japan.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<div style="position: relative">
+<p style="position: fixed; bottom: 0; width:100%; text-align: left">
+<a href="https://www.facebook.com/GambaOsakaOfficial"> <img src="facebook.png"> <class="fa fa-facebook"> </a>
+<a href="https://twitter.com/GAMBA_OFFICIAL"> <img src="twitter.png"> <class="fa fa-twitter"> </a>
+<a href="https://www.youtube.com/user/gambastream"> <img src="youtube.png"> <class="fa fa-youtube"> </a>
+<a href="https://www.instagram.com/gambaosaka_official/"> <img src="instagram.png"> <class="fa fa-instagram"> </a>
+</p>
+</body>
+</html>
